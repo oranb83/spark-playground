@@ -112,6 +112,6 @@ Choose a graph to your liking: currently supports: Scatter / Pie.
 `python main.py -c type -v PushEvent -v PullRequestEvent -g scatter`
 
 
-s![](charts_example/scatter_chart.png)
+![](charts_example/scatter_chart.png)
 
-**Note: checkout the HTML files that represents the results of the above commands in a much better UI with hover and many other functionalities as fit to chart**
+**Checkout the HTML files that represents the results of the above commands in a much better UI with hover and many other functionalities as fit to a chart, if you can see them correctly just run the code and they with automatically pop up with the Graph Mode commands**
