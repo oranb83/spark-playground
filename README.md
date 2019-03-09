@@ -107,4 +107,3 @@ Choose a graph to your liking: currently supports: Scatter / Pie.
 `python main.py -g pie`
 
 **Note: Checkout the HTML files that represents the results of the above commands**
-
