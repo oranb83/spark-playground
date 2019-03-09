@@ -103,10 +103,15 @@ with IN (same as IN acts in SQL).
 Choose a graph to your liking: currently supports: Scatter / Pie.
 **Note:** Added reflection to display the supported types in case of user error in choosing the correct type.
 
-`python main.py -c type -v PushEvent -v PullRequestEvent -g scatter`
-![](charts_example/pie_chart.html)
-
 `python main.py -g pie`
-![](charts_example/scatter_chart.html)
+
+
+![](charts_example/pie_chart.png)
+
+
+`python main.py -c type -v PushEvent -v PullRequestEvent -g scatter`
+
+
+s![](charts_example/scatter_chart.png)
 
 **Note: Checkout the HTML files that represents the results of the above commands**
