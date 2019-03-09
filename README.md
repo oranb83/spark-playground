@@ -114,4 +114,4 @@ Choose a graph to your liking: currently supports: Scatter / Pie.
 
 s![](charts_example/scatter_chart.png)
 
-**Note: Checkout the HTML files that represents the results of the above commands**
+**Note: checkout the HTML files that represents the results of the above commands in a much better UI with hover and many other functionalities as fit to chart**
