@@ -95,12 +95,15 @@ This is the recommended mode for local runs:
 Choose column and filters with the `-c` `-v` commands respectively.
 The `-v` command can be repeated and will produce a list of values to be compared
 with IN (same as IN acts in SQL).
-**Note:** Currently supports only root level parameters of the json (=> json_object.keys())
+
+#### Note 
+Currently supports only root level parameters of the json (=> json_object.keys())
 
 `python main.py -c type -v PushEvent -v PullRequestEvent -d`
 
 ### Graph Mode
 Choose a graph to your liking: currently supports: Scatter / Pie.
+
 **Note:** Added reflection to display the supported types in case of user error in choosing the correct type.
 
 `python main.py -g pie`
