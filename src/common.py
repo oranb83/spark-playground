@@ -65,7 +65,7 @@ class Runnable(object):
             raise RuntimeError("The input directory is missing")
 
         spark = get_session()
-        # TODO: to support other output types a stategy pattern should be implemented
+        # TODO: to support other output types a strategy pattern should be implemented
         #       based on the directory files and the correct type should be choosen via code.
         df = spark.read.json(self.input)
 
