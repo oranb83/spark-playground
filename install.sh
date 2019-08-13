@@ -20,7 +20,7 @@ do
             echo "Install environment"
             pip install -e .
             ;;
-        -h* | -help*)
+        -h* | --help*)
             usage
             exit 1
     esac
