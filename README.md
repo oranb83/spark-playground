@@ -105,7 +105,8 @@ Currently supports only root level parameters of the json (=> json_object.keys()
 ### Graph Mode
 Choose a graph to your liking: currently supports: Scatter / Pie.
 
-**Note:** Added reflection to display the supported types in case of user error in choosing the correct type.
+#### Note 
+Added reflection to display the supported types in case of user error in choosing the correct type.
 
 `python main.py -g pie`
 
