@@ -7,7 +7,8 @@ The aim of this task is to extract data from JSON files via spark and save the f
 For example the default results will be sent to:
 `./output/date=2015-01-01/<filename>.csv`
 
-Note: using CRON (scheduler) and supporting any scale are built in in
+### Note 
+Using CRON (scheduler) and supporting any scale are built in
 `Databricks`, so there is no point in implementing that for a managed service
 that was built for spark, by the spark developers.
 
